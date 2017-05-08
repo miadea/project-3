@@ -194,14 +194,14 @@ html, body {
 .portfolio-content .metro {
 	width: 100%;
 	height: auto;
-	display: flex;   
+	display: flex;
 	flex-flow:row wrap;
 }
-  
+
  .block {
 	box-sizing: border-box;
  }
-  
+
  .block2x2 {
     width: 50vw;
     height: 50vh;
@@ -228,6 +228,7 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 }
 
 .photo-page .title h1 {
@@ -335,11 +336,11 @@ html, body {
     border-bottom: 2px solid #7cb342;
     border-top-style: none;
     border-right-style: none;
-    border-left-style: none;    
+    border-left-style: none;
     color: #fff;
 	font-size: 1.5rem;
 	font-family: 'Josefin Sans', sans-serif;
-	
+
 }
 .contact-form input[type="submit"]:hover {
     background: #aed581;
@@ -363,7 +364,7 @@ html, body {
 	.large-screen {
 		display: none !important;
 	}
-	
+
 	.small-screen {
 		display: flex !important;
 		width: 100%;
